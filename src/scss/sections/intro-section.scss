@@ -126,10 +126,11 @@
 	}
 
 	&__map {
-		min-width: 100%;
+		min-width: 10%;
 
 		iframe {
 			min-width: 100%;
+			max-width: max-content;
 		}
 	}
 }
