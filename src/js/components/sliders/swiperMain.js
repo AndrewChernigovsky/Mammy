@@ -8,7 +8,7 @@ const swiperMain = (() => {
 		loop: false,
 		preloadImages: true,
 		autoplay: {
-			delay: 10000,
+			delay: 300000,
 			disableOnInteraction: false,
 		},
 		centerInsufficientSlides: true,
@@ -25,15 +25,15 @@ const swiperMain = (() => {
 		breakpoints: {
 			768: {
 				spaceBetween: 40,
-				slidesPerView: 2,
+				// slidesPerView: 2,
 			},
 			1024: {
 				spaceBetween: 100,
-				slidesPerView: 3,
+				// slidesPerView: 3,
 			},
 			1200: {
 				spaceBetween: 200,
-				slidesPerView: 4,
+				// slidesPerView: 4,
 			},
 		},
 	});
