@@ -1,13 +1,14 @@
 const swiperMain = (() => {
 	const accountantInit = new Swiper('.swiper-main', {
-		slidesPerView: 1,
+		slidesPerView: 'auto',
 		spaceBetween: 10,
 		speed: 800,
 		centeredSlides: true,
 		grabCursor: true,
-		loop: true,
+		loop: false,
+		preloadImages: true,
 		autoplay: {
-			delay: 7000,
+			delay: 10000,
 			disableOnInteraction: false,
 		},
 		centerInsufficientSlides: true,
@@ -27,11 +28,11 @@ const swiperMain = (() => {
 				slidesPerView: 2,
 			},
 			1024: {
-				spaceBetween: 40,
+				spaceBetween: 100,
 				slidesPerView: 3,
 			},
 			1200: {
-				spaceBetween: 80,
+				spaceBetween: 200,
 				slidesPerView: 4,
 			},
 		},
