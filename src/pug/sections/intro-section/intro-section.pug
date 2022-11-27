@@ -6,22 +6,22 @@ section(class=introSection + ' introSectionMainPage')
 			div(class='intro-section__intro')
 				div(class='intro-section__text')
 					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
-						|	Запись на приём к доктору происходит по номеру телефона, 
-						b звоните.
+						|	Запись на приём:
 						|
 						a(href='tel:+78129050707')
 							b +7 (812) 905 07 07
 					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
+						|	Клиника доктора Тимчука
+						|
+						a(href='https://osteometod.ru/') 
+							b osteometod.ru
+					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
 						b Часы работы клиники:
 						|	с 10-20 часов ежедневно
 					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
-						b Часы работы Доктора Аверьяновой: 
-						| понедельник с 15-00 до 19-00 и пятница с 10-00 до 19-00
+						b Адрес клиники:
+						a(href='#map') г.Санкт-Петербург, ул. Парадная д. 4
 					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
-						b Приём врача осуществляется по адресу: 
-						| г.Санкт-Петербург, ул. Парадная д. 4
-						br 
-						br
 						span 
 						i ниже на сайте встроены гугл-карты, где можно подробнее посмотреть адрес	
 				div(class='intro-section__image-wrapper')
@@ -41,9 +41,6 @@ section(class=introSection + ' introSectionMainPage')
 						| Врач – иглорефлексотерапевт
 					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
 						| Невролог
-					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
-						b Время приема: 
-						|	пн. 15:00 – 20:00, птн. 10:00 – 16:00
 				hr
 				ul(class='intro-section__text') 
 					p(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
@@ -111,7 +108,17 @@ section(class=introSection + ' introSectionMainPage')
 						|	 выдан «Санкт-Петербургский государственный педиатрический медицинский университет»
 						|
 						b 08.06.2019 г. Санкт-Петербург
-			
+					li(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
+						b 09.2022 г 
+						|	обучение неоклассической акупунктуре
+					li(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
+						b 11.2022 
+						|	участие в мастер классе по неоклассической акупунктуре
+					li(class=titleDefault__H3+ ' ' +colorTextBlack + ' title-company-introSection')
+						b 11.2022 
+						|	аккредитация по неврологии
 
-			div(class='intro-section__map')
+			include ../../modules/includes/sliders/sliderMain/sliderMain
+
+			div(class='intro-section__map' id='map')
 				iframe(src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.4111036729964!2d30.3711206!3d59.9419135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696319993f28c0b%3A0x79adc23c6cb3192a!2z0J_QsNGA0LDQtNC90LDRjyDRg9C7LiwgNCwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MTAxNQ!5e0!3m2!1sru!2sru!4v1669546728228!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade")

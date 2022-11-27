@@ -1,10 +1,10 @@
-const HEADER_EL_HEIGHT = document.querySelector('.menu').clientHeight;
+// const HEADER_EL_HEIGHT = document.querySelector('.menu').clientHeight;
 
 const scrollSmooth = (() => {
 	const smoothScroll = () => {
 		const scroll = function (targetEl, duration) {
 			const targets = document.querySelector(targetEl);
-			const targetsPosition = targets.getBoundingClientRect().top - HEADER_EL_HEIGHT;
+			// const targetsPosition = targets.getBoundingClientRect().top - HEADER_EL_HEIGHT;
 			const startsPosition = window.pageYOffset;
 			let startTime = null;
 
